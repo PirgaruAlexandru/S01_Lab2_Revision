@@ -3,11 +3,11 @@
     public class Zombie
     {
 
-        public string Name;
+        public string Name { get; set; }
 
-        public string Type;
+        public string Type { get; set; }
 
-        public int Point;
+        public int Point { get; set; }
 
 
     }
